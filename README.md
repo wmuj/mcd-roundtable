@@ -11,6 +11,8 @@
 [![ci](https://github.com/wmuj/mcd-roundtable/actions/workflows/ci.yml/badge.svg)](https://github.com/wmuj/mcd-roundtable/actions/workflows/ci.yml)
 [![tests](https://img.shields.io/badge/selftest-15%20passed-success)](test/selftest.js)
 
+<img src="docs/terminal.png" alt="麦门圆桌运行效果：三军师辩论现场" width="900"/>
+
 <img src="docs/preview.svg" alt="麦门圆桌战报卡片" width="640"/>
 
 *麦当劳程序员创意开发大赛参赛作品 · 非麦当劳官方产品*
