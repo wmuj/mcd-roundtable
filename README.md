@@ -8,6 +8,8 @@
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-brightgreen)](package.json)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-success)](package.json)
 [![MCP](https://img.shields.io/badge/%E9%BA%A6%E5%BD%93%E5%8A%B3%20MCP-%E5%AE%98%E6%96%B9%E6%8E%A5%E5%85%A5-FFC72C)](https://github.com/M-China/mcd-mcp-server)
+[![ci](https://github.com/wmuj/mcd-roundtable/actions/workflows/ci.yml/badge.svg)](https://github.com/wmuj/mcd-roundtable/actions/workflows/ci.yml)
+[![tests](https://img.shields.io/badge/selftest-15%20passed-success)](test/selftest.js)
 
 <img src="docs/preview.svg" alt="麦门圆桌战报卡片" width="640"/>
 

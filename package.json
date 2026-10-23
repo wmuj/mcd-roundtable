@@ -13,7 +13,8 @@
     "start": "node bin/mcd.js --demo",
     "demo": "node bin/mcd.js --demo",
     "daily": "node bin/mcd.js daily",
-    "card": "node bin/mcd.js --demo --card card.svg"
+    "card": "node bin/mcd.js --demo --card card.svg",
+    "test": "node test/selftest.js"
   },
   "keywords": [
     "mcdonalds",
