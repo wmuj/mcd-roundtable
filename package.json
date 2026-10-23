@@ -1,0 +1,34 @@
+{
+  "name": "mcd-roundtable",
+  "version": "1.0.0",
+  "description": "麦门圆桌 · 三个AI军师用你的真实优惠券，吵出今晚最优的一顿麦当劳（麦当劳程序员创意开发大赛参赛作品）",
+  "bin": {
+    "mcd-roundtable": "bin/mcd.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/mcd.js --demo",
+    "demo": "node bin/mcd.js --demo",
+    "daily": "node bin/mcd.js daily",
+    "card": "node bin/mcd.js --demo --card card.svg"
+  },
+  "keywords": [
+    "mcdonalds",
+    "mcp",
+    "mcd",
+    "麦门",
+    "麦当劳",
+    "skill",
+    "ai",
+    "optimizer",
+    "1024"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmuj/mcd-roundtable.git"
+  }
+}

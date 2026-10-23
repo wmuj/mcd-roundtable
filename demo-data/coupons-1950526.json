@@ -1,0 +1,61 @@
+{
+ "success": true,
+ "code": 200,
+ "message": "请求成功",
+ "datetime": "2026-10-23 23:50:59",
+ "traceId": "16dbeb636c419f3b48c650dc931547bf",
+ "data": [
+  {
+   "title": "19.9元王牌炸鸡任选2",
+   "couponId": "449288***********************483",
+   "couponCode": "MCD610************209",
+   "tradeDateTime": "2026-10-19 10:30:00-2026-10-23 23:59:59",
+   "products": [
+    {
+     "productCode": "9900016534",
+     "productName": "王牌炸鸡任选2"
+    }
+   ],
+   "promotionId": "112479004"
+  },
+  {
+   "title": "11.9元麦辣鸡腿堡",
+   "couponId": "A25528***********************A65",
+   "couponCode": "MCD600************661",
+   "tradeDateTime": "2026-10-19 10:30:00-2026-10-23 23:59:59",
+   "products": [
+    {
+     "productCode": "1440",
+     "productName": "麦辣鸡腿汉堡"
+    }
+   ],
+   "promotionId": "112479003"
+  },
+  {
+   "title": "1024“码”力翻倍",
+   "couponId": "5FBE31***********************11F",
+   "couponCode": "MCD6B3************20E",
+   "tradeDateTime": "2026-10-23 00:00:00-2026-10-29 23:59:59",
+   "products": [
+    {
+     "productCode": "9900016523",
+     "productName": "龙焰鸡腿堡两件套"
+    }
+   ],
+   "promotionId": "112465010"
+  },
+  {
+   "title": "1024“码”力翻倍",
+   "couponId": "BF9D73***********************1C4",
+   "couponCode": "MCD6A1************5T0",
+   "tradeDateTime": "2026-10-23 00:00:00-2026-10-29 23:59:59",
+   "products": [
+    {
+     "productCode": "9900016523",
+     "productName": "龙焰鸡腿堡两件套"
+    }
+   ],
+   "promotionId": "112465004"
+  }
+ ]
+}

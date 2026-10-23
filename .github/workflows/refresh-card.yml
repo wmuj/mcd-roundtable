@@ -1,0 +1,30 @@
+name: refresh-card
+
+# 每天早上 8 点（北京时间）用演示数据刷新战报卡片并自动提交。
+# 想接入你自己的实时数据：把 MCD_MCP_TOKEN 配置为仓库 Secret，
+# 并把下方 --demo 参数去掉即可。
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: render card
+        run: node bin/mcd.js --demo --card docs/preview.svg --seed $(date +%d)
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/preview.svg
+          git diff --cached --quiet || git commit -m "chore: refresh daily card [skip ci]"
+          git push

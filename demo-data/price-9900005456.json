@@ -1,0 +1,35 @@
+{
+ "success": true,
+ "code": 200,
+ "message": "请求成功",
+ "datetime": "2026-10-23 23:50:24",
+ "traceId": "9aabec30b5fe9633a4b7c4681375ae2c",
+ "data": {
+  "productOriginalPrice": 3900,
+  "productPrice": 3900,
+  "originalPrice": 3900,
+  "discount": 0,
+  "price": 3900,
+  "productList": [
+   {
+    "productCode": "9900005456",
+    "productName": "麦辣鸡腿汉堡三件套",
+    "quantity": 1,
+    "originalSubtotal": 3900,
+    "subtotal": 3900
+   }
+  ],
+  "takeWayList": [
+   {
+    "code": "eat-in",
+    "title": "堂食",
+    "subtitle": "店内用餐"
+   },
+   {
+    "code": "take-in-store",
+    "title": "外带",
+    "subtitle": "店内自提"
+   }
+  ]
+ }
+}
